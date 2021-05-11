@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>My first website</title>
+</head>
+<body>
+
+<header class="bg-light">
+    <div class="container px-4">
+        <div class="row gx-4">
+
+
+            <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-3">
+
+
+                <a class="navbar-brand" href="/">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/about/">About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/academics/">Academics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/records/">Records
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery/">Photos</a>
+                        </li>
+  <li class="nav-item">
+                            <a class="nav-link" href="/chart/">Chart</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+               <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a target="_blank" href="/calendar/">
+
+                    <img border="10" src="https://www.google.com/calendar/images/ext/gc_button6_en.gif"></a>
+
+            </nav>
+
+
+            <div class="jumbotron mt-2">
+                <div class="card center mx-auto p-5 " style="width: 20rem;">
+                    <div class="card-body">
+
+                        <form action="/records/new" method="POST">
+
+
+                                <div class="col">
+                                    <label for="Name">Name</label>
+                                    <input id="Name" type="text" class="form-control" placeholder="Name"
+                                           name="Name">
+                                </div>
+                                <div class="col">
+                                    <label for="Sex">Sex</label>
+                                    <input id="Sex" type="text" class="form-control" placeholder="Sex"
+                                           name="Sex">
+                                </div>
+                                <div class="col">
+                                    <label for="Age">Age</label>
+                                    <input id="Age" type="text" class="form-control" placeholder="Age" name="Age">
+                                </div>
+
+                            <div class="col">
+                                <label for="Height_in">Height_in</label>
+                                <input id="Height_in" type="text" class="form-control" placeholder="Height_in"
+                                       name="Height_in">
+                            </div>
+
+                    <div class="col">
+                        <label for="Weight_lbs">Weight_lbs</label>
+                        <input id="Weight_lbs" type="text" class="form-control" placeholder="Weight_lbs"
+                               name="Weight_lbs">
+                    </div>
+
+
+                        <p></p>
+                        <button type="submit" class="btn btn-success">Submit</button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
