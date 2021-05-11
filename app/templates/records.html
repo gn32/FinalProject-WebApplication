@@ -34,62 +34,69 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/academics/">Academics</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/records/">Records
+                          <li class="nav-item">
+                            <a class="nav-link" href="/Faculty/">Faculty</a>
+                        </li>
+                        <li class="nav-item active ">
+                            <a class="nav-link active " href="/records/">Records
                             </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/chart/">Chart</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/gallery/">Photos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/chart/">Chart</a>
                         </li>
 
                     </ul>
 
                 </div>
 
-<div class = "container justify-content-end">
+                <div class="container justify-content-end">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a target="_blank" href="/calendar/">
-                    <img border="10" src="https://www.google.com/calendar/images/ext/gc_button6_en.gif"></a>
-         </div>   </nav>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a target="_blank" href="/calendar/">
+                        <img border="10" src="https://www.google.com/calendar/images/ext/gc_button6_en.gif"></a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
 
-
-
-            <div class="jumbotron mt-2 ">
-                <!--            <h5 class="display-6 "> Arizona State University</h5>-->
-                <a class="btn btn-danger btn" href="new" role="button">Add New </a>
-                <p></p>
-                <table class="table">
-                    <thead>
+<header class="bg-light">
+    <div class="container-xl">
+        <div class="jumbotron">
+            <!--            <h5 class="display-6 "> Arizona State University</h5>-->
+            <a class="btn btn-danger btn" href="new" role="button">Add New </a>
+            <p></p>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Sex</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Height_in</th>
+                    <th scope="col">Weight_lbs</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for record in records %}
                     <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Sex</th>
-                        <th scope="col">Age</th>
-                        <th scope="col">Height_in</th>
-                        <th scope="col">Weight_lbs</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {% for record in records %}
-                    <tr>
-                        <td><a href="/view/{{record.id}}">{{ record.Name }}</a></td>
+                        <td><a href="/view/{{ record.id }}">{{ record.Name }}</a></td>
                         <td>{{ record.Sex }}</td>
                         <td>{{ record.Age }}</td>
                         <td>{{ record.Height_in }}</td>
                         <td>{{ record.Weight_lbs }}</td>
 
                     </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
-            </div>
+                {% endfor %}
+                </tbody>
+            </table>
         </div>
     </div>
 </header>

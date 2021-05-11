@@ -55,6 +55,11 @@ def calendar():
 def covid():
     return render_template('covid.html')
 
+
+@app.route('/Faculty/')
+def Faculty():
+    return render_template('Faculty.html')
+
 @app.route('/records/', methods=['GET'])
 def course():
     user = {'username': 'Rutgers'}
