@@ -29,20 +29,24 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <span class="nav-link" href="/about/">About</span></span>
+                            <a class="nav-link" href="/about/">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/academics/">Academics</a>
+                        </li>
+                          <li class="nav-item active ">
+                            <a class="nav-link active " href="/Faculty/">Faculty</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/records/">Records
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/gallery/">Photos</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="/chart/">Chart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery/">Photos</a>
                         </li>
 
                     </ul>
@@ -65,432 +69,369 @@
 </header>
 <header class="bg-light">
     <div class="container-xl">
-        <div class="col-md text-center mt-4 mb-4 ">
-            <img alt="Responsive image" class="img-circle" src="../../Images/FacultyGroup.PNG" style="width:80%">
-            </img>
-        </div>
-    </div>
-</header>
-
-<header class="bg-light">
-    <div class="container-xl">
         <div class="jumbotron">
-            <h5 class="display-5 "><strong>Faculty and Staff at NJIT</strong></h5>
-            </p>
-        </div>
-    </div>
-</header>
-<header class="bg-light">
-    <div class="container">
-        <div class="row mb-3">
-            <header class="bg-light">
-                <div class="container">
-                    <div class="row mb-3">
-
-                        <div class="col-md">
-                            <div class="card border-secondary mb-3" style="max-width: 18rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center "><strong>Dean</strong></h5>
-                                    <img alt="Card image cap" class="col-md-7" class="card-img-top"
-                                         src="../../Images/Faculty1.jpg" style="width:100%; height: 90%"></img>
-                                    <h5 class="card-title text-center "><strong>Rao, Madhava</strong></h5>
-                                    <p class="card-text text-center">Professor</p>
-                                    <div class="text-center">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md">
-                            <div class="card border-secondary mb-3" style="max-width: 18rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center "><strong>Rector</strong></h5>
-                                    <img alt="Card image cap" class="col-md-7" class="card-img-top"
-                                         src="../../Images/Faculty2.jpg" style="width:100%; height: 90%"></img>
-                                    <h5 class="card-title text-center "><strong>Wei, Wang</strong></h5>
-                                    <p class="card-text text-center">Professor</p>
-                                    <div class="text-center">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md">
-                            <div class="card border-secondary mb-3" style="max-width: 18rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center "><strong>Vice-rector</strong></h5>
-                                    <img alt="Card image cap" class="col-md-7" class="card-img-top"
-                                         src="../../Images/Faculty4.PNG"
-                                         style="width:100%; height: 90%"></img>
-                                    <h5 class="card-title text-center "><strong>Lee, Melissa</strong></h5>
-                                    <p class="card-text text-center">Professor</p>
-                                    <div class="text-center">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <div class="tab_content" id="textcontainer">
-
-                <p><strong>Abdel-Malek, Layek</strong><br/>
-                    Professor of Mechanical and Industrial Engineering (1986)<br/>
-                    Ph.D. Operations Research, New York University, 1980<br/>
-                    Diploma, National Planning Institute, Cairo, 1970<br/>
-                    B.S., Cairo University, 1969 </p>
+            <div class="col-md text-center mt-4 mb-4 ">
+                    <h5 class="display-5 "><strong>Faculty and Staff at NJIT</strong></h5>
+                <img alt="Responsive image" class="img-circle"
+                     src="{{ url_for('static', filename = 'FacultyGroup.PNG') }}"
+                     style="width:80%">
+                </img>
+            </div>
 
 
-                <p><strong>Abdi, Ali</strong><br/>
-                    Professor of Electrical and Computer Engineering (2001)<br/>
-                    Ph.D., University of Minnesota, 2001<br/>
-                    M.S., University of Teheran, 1996<br/>
-                    B.S., University of Science and Technology, 1991<br/>
-                    <br/>
-                    <strong>Abdou, George </strong><br/>
-                    Associate Professor of Mechanical and Industrial Engineering (1993)<br/>
-                    Ph.D. Industrial Engineering, Iowa State University, 1987<br/>
-                    M.S., Iowa State University, 1983<br/>
-                    B.S., Helwan University, Cairo, 1977</p>
 
 
-                <p><strong>Abichandani, Pramod </strong><br/>
-                    Assistant Professor of Engineering Technology (2017)<br/>
-                    Ph.D. Electrical and Computer Engineering, Drexel University, 2011<br/>
-                    M.S. Electrical and Computer Engineering, Drexel University, 2007<br/>
-                    B.E. Instrumentation and Controls Engineering, Nirma Institute of Technology, 2005</p>
+            <p><strong>Abdel-Malek, Layek</strong><br/>
+                Professor of Mechanical and Industrial Engineering (1986)<br/>
+                Ph.D. Operations Research, New York University, 1980<br/>
+                Diploma, National Planning Institute, Cairo, 1970<br/>
+                B.S., Cairo University, 1969 </p>
 
 
-                <p><strong>Adamovich, Sergei </strong><br/>
-                    Professor of Biomedical Engineering (2003)<br/>
-                    Ph.D., Moscow Institute of Physics and Technology, 1988<br/>
-                    M.S., Moscow Institute of Physics and Technology, 1983<br/>
-                    B.Sc., Moscow Institute of Physics and Technology, 1983<br/>
-                    <br/>
-                    <strong>Adams, Matthew P.</strong><br/>
-                    Assistant Professor of Civil and Enviornmental Engineering (2015)<br/>
-                    Ph.D. Civil Engineering, Oregon State University, 2015<br/>
-                    B.S. Civil Engineering, University of New Hampshire-Main Campus, 2015<br/>
-                    M.S., Oregon State University, 2014<br/>
-                    M.S. Civil Engineering, Oregon State University, 2012<br/>
-                    <br/>
-                    <strong>Afkhami, Shahriar Zakerzadeh </strong><br/>
-                    Professor of Mathematical Sciences (2009)<br/>
-                    Ph.D. Mechanical Engineering, University of Toronto, 2007<br/>
-                    M.S., University of Science and Research, Iran, 2007<br/>
-                    B.S., Azad University of Tehran, Iran, 2007</p>
+            <p><strong>Abdi, Ali</strong><br/>
+                Professor of Electrical and Computer Engineering (2001)<br/>
+                Ph.D., University of Minnesota, 2001<br/>
+                M.S., University of Teheran, 1996<br/>
+                B.S., University of Science and Technology, 1991<br/>
+                <br/>
+                <strong>Abdou, George </strong><br/>
+                Associate Professor of Mechanical and Industrial Engineering (1993)<br/>
+                Ph.D. Industrial Engineering, Iowa State University, 1987<br/>
+                M.S., Iowa State University, 1983<br/>
+                B.S., Helwan University, Cairo, 1977</p>
 
 
-                <p><strong>Ahmadpoor, Fatemeh</strong><br/>
-                    Assistant Professor of Mechanical and Industrial Engineering (2019)<br/>
-                    Ph.D. Mechanical Engineering, University of Houston, 2016<br/>
-                    M.S. Structural Engineering, Sharif University of Technology, 2012<br/>
-                    B.S. Civil Engineering, Sharif University of Technology, 2009<br/>
-                    <br/>
-                    <strong>Ahn, Keun Hyuk </strong><br/>
-                    Associate Professor of Physics (2007)<br/>
-                    Ph.D., Johns Hopkins University, 2000<br/>
-                    M.S., Seoul National University, South Korea, 1994<br/>
-                    B.S., Seoul National University, South Korea, 1992<br/>
-                    <br/>
-                    <strong>Akansu, Ali N. </strong><br/>
-                    Professor of Electrical and Computer Engineering (1987)<br/>
-                    Ph.D. Electrical Engineering, Polytechnic Institute of New York University, 1987<br/>
-                    M.S. Electrical Engineering, Polytechnic Institute of New York University, 1983<br/>
-                    B.S. Electronics and Communications, Technical University of Istanbul, 1980<br/>
-                    <br/>
-                    <strong>Alvarez, Tara L. </strong><br/>
-                    Professor of Biomedical Engineering (2001)<br/>
-                    Ph.D. Biomedical Engineering, Rutgers University-New Brunswick, 1998<br/>
-                    M.S. Biomedical Engineering, Rutgers University-New Brunswick, 1997<br/>
-                    B.S. Electrical Engineering, Rutgers University-New Brunswick, 1994<br/>
-                    <br/>
-                <p><strong>Borgaonkar, Ashish</strong><br/>
-                    Assistant Professor of Engineering Technology (2013)<br/>
-                    <br/>
-                    <strong>Bose, Amitabha K. </strong><br/>
-                    Professor of Mathematical Sciences (1996)<br/>
-                    Ph.D., Brown University, 1993<br/>
-                    M.S., Brown University, 1991<br/>
-                    B.S., Columbia University in the City of New York, 1989<br/>
-                    <br/>
-                    <strong>Boubendir, Yassine </strong><br/>
-                    Associate Professor of Mathematical Sciences (2007)<br/>
-                    Ph.D., Universite de Toulouse, France, 2002<br/>
-                    M.S., University of Paul, France, 1996<br/>
-                    B.S., University of Constantine, Algeria, 1993<br/>
-                    <br/>
-                    <strong>Boufadel, Michel </strong><br/>
-                    Professor of Civil and Environmental Engineering (2012)<br/>
-                    Ph.D., University of Cincinnati, 1998<br/>
-                    M.S., University of Cincinnati, 1992<br/>
-                    B.S., Jesuit University at Beirut, Lebanon, 1988<br/>
-                    <br/>
-                    <strong>Bucher, Dirk M. </strong><br/>
-                    Associate Professor of Federated Biology (2013)<br/>
-                    Ph.D.<br/>
-                    <br/>
-                    <strong>Bukiet, Bruce G. </strong><br/>
-                    Professor of Mathematical Sciences (1989)<br/>
-                    Ph.D., New York University, 1986<br/>
-                    M.S. Mathematics, New York University, 1983<br/>
-                    B.S. Applied Mathematics - Biology, Brown University, 1980<br/>
-                    <br/>
-                    <strong>Bunker, Daniel E. </strong><br/>
-                    Assistant Professor of Federated Biology (2008)<br/>
-                    Ph.D. Biology, University of Pittsburgh-Pittsburgh Campus, 2004<br/>
-                    B.S. Ecology and Evolution, The Evergreen State College, 1994</p>
+            <p><strong>Abichandani, Pramod </strong><br/>
+                Assistant Professor of Engineering Technology (2017)<br/>
+                Ph.D. Electrical and Computer Engineering, Drexel University, 2011<br/>
+                M.S. Electrical and Computer Engineering, Drexel University, 2007<br/>
+                B.E. Instrumentation and Controls Engineering, Nirma Institute of Technology, 2005</p>
 
 
-                <p><strong>Buntain, Cody</strong><br/>
-                    Assistant Professor of Computer Science and Informatics (2019)<br/>
-                    Ph.D. Computer Science, University of Maryland-College Park, 2016<br/>
-                    M.S. Computer Science, University of Alabama in Huntsville, 2010<br/>
-                    B.S. Computer Science and Mathematics, University of Alabama in Huntsville, 2007<br/>
-                    <br/>
-                    <strong>Buyukahtakin-Toy, Ismet Esra</strong><br/>
-                    Associate Professor of Mechanical and Industrial Engineering (2017)</p>
+            <p><strong>Adamovich, Sergei </strong><br/>
+                Professor of Biomedical Engineering (2003)<br/>
+                Ph.D., Moscow Institute of Physics and Technology, 1988<br/>
+                M.S., Moscow Institute of Physics and Technology, 1983<br/>
+                B.Sc., Moscow Institute of Physics and Technology, 1983<br/>
+                <br/>
+                <strong>Adams, Matthew P.</strong><br/>
+                Assistant Professor of Civil and Enviornmental Engineering (2015)<br/>
+                Ph.D. Civil Engineering, Oregon State University, 2015<br/>
+                B.S. Civil Engineering, University of New Hampshire-Main Campus, 2015<br/>
+                M.S., Oregon State University, 2014<br/>
+                M.S. Civil Engineering, Oregon State University, 2012<br/>
+                <br/>
+                <strong>Afkhami, Shahriar Zakerzadeh </strong><br/>
+                Professor of Mathematical Sciences (2009)<br/>
+                Ph.D. Mechanical Engineering, University of Toronto, 2007<br/>
+                M.S., University of Science and Research, Iran, 2007<br/>
+                B.S., Azad University of Tehran, Iran, 2007</p>
 
 
-                <p><strong>Cai, Wenbo </strong><br/>
-                    Assistant Professor of Mechanical and Industrial Engineering (2012)<br/>
-                    Ph.D. Industrial Engineering and Operations Research, University of California-Berkeley, 2012<br/>
-                    M.S. Industrial Engineering and Operations Research, University of California-Berkeley, 2007<br/>
-                    B.S. Electrical and Computer Engineering; Operations Research and Industrial Engineering, Cornell
-                    University, 2005<br/>
-                    <br/>
-                    <strong>Calvin, James M. </strong><br/>
-                    Professor of Computer Science (1996)<br/>
-                    Ph.D., Stanford University, 1990<br/>
-                    M.S., University of California-Berkeley, 1979<br/>
-                    B.A., University of California-Berkeley, 1978<br/>
-                    <br/>
-                    <strong>Cao, Wenda </strong><br/>
-                    Associate Professor of Physics (2002)<br/>
-                    Ph.D. Astrophysics and Astronomical Instrument, National Astronomical Observatories, Chinese Academy
-                    of Sciences, 2001<br/>
-                    M.S., National Astronomical Observatories, Chinese Academy of Sciences, 1992<br/>
-                    B.S., University of National Defense Science and Technology (China), 1989<br/>
-                    <br/>
-                    <strong>Carpinelli, John D. </strong><br/>
-                    Professor of Electrical and Computer Engineering (1986)<br/>
-                    Ph.D., Rensselaer Polytechnic Institute, 1987<br/>
-                    M.E., Rensselaer Polytechnic Institute, 1984<br/>
-                    B.E., Stevens Institute of Technology, 1983<br/>
-                    <br/>
-                    <strong>Caudill, Reggie J </strong><br/>
-                    Professor of Mechanical and Industrial Engineering (1990)<br/>
-                    Ph.D. Dynamics and Controls/Mechanical Engineering, University of Minnesota-Twin Cities, 1976<br/>
-                    M.S. Engineering Mechanics, The University of Alabama, 1973<br/>
-                    B.S. Mechanical Engineering, The University of Alabama, 1971<br/>
-                    <br/>
-                    <strong>Celik, Zeynep </strong><br/>
-                    Distinguished Professor of Architecture and Design (1990)<br/>
-                    Ph.D. Architectural History, University of California-Berkeley, 1984<br/>
-                    M. Arch., Rice University, 1978<br/>
-                    B. Arch., Istanbul Technical University, 1975</p>
-                <p><strong>Daher, Salam</strong><br/>
-                    Assistant Professor of Informatics (2019)<br/>
-                    Ph.D. Modeling and Simulation, University of Central Florida, 2018<br/>
-                    M.S. Modeling and Simulation, University of Central Florida, 2015<br/>
-                    M.S. Digital Arts and Science, University of Florida, 2006<br/>
-                    B.S. Computer Science, Lebanese American University, 2004<br/>
-                    <br/>
-                    <strong>Daniel, Janice R. </strong><br/>
-                    Associate Professor of Civil and Environmental Engineering (1999)<br/>
-                    Ph.D. Civil and Environmental Engineering, Texas A&amp;M Health Science Center, 1995<br/>
-                    M.S. Transportation Planning and Engineering, Polytechnic Institute of New York University,
-                    1989<br/>
-                    B.S. Civil Engineering, Princeton University, 1985<br/>
-                    <br/>
-                    <strong>Das, Sanchoy K. </strong><br/>
-                    Professor of Mechanical and Industrial Engineering (1989)<br/>
-                    Ph.D., Virginia Polytechnic Institute and State University, 1989<br/>
-                    M.S., Virginia Polytechnic Institute and State University, 1985<br/>
-                    B.S., University of Science and Technology (Ghana), 1982<br/>
-                    <br/>
-                    <strong>Dasgupta, Aritra</strong><br/>
-                    Assistant Professor of Informatics (2018)<br/>
-                    <br/>
-                    <strong>Datta, Dibakar</strong><br/>
-                    Assistant Professor of Mechanical and Industrial Engineering (2016)<br/>
-                    Ph.D. Philosophy, Brown University, 2015<br/>
-                    M.S. Computational Mechanics, Universitat Politecnica de Catalunya, 2010<br/>
-                    M.S. Structural Engineering, Indian Institute of Science, 2008<br/>
-                    B.S. Civil Engineering, Indian Institute of Engineering Science, 2006<br/>
-                    <br/>
-                    <strong>Dave, Rajesh N. </strong><br/>
-                    Distinguished Professor of Chemical and Materials Engineering (1985)<br/>
-                    Ph.D. Mechanical Engineering, Utah State University, 1983<br/>
-                    M.S. Mechanical Engineering, Utah State University, 1981<br/>
-                    B.S. Mechanical Engineering, Indian Institute of Technology, 1978<br/>
-                    <br/>
-                    <strong>Decker, Martina </strong><br/>
-                    Assistant Professor of Architecture and Design (2012)<br/>
-                    Diploma Architektur, FHM Munich University of Applied Sciences, 2004<br/>
-                    Diploma, FHM Munich University of Applied Sciences, 2000<br/>
-                    <br/>
-                    <strong>Deek, Fadi P. </strong><br/>
-                    Distinguished Professor of Information System (1986)<br/>
-                    Ph.D. Computer and Information Science, New Jersey Institute of Technology, 1997<br/>
-                    M.S. Computer Science, New Jersey Institute of Technology, 1986<br/>
-                    B.S. Computer Science, New Jersey Institute of Technology, 1985<br/>
-                    <br/>
-                    <strong>Dent, Rosanna J.</strong><br/>
-                    Assistant Professor of Federated History (2018)<br/>
-                    <br/></p>
-                <p><strong>Liu, Qing</strong><br/>
-                    Assistant Professor of Electrical and Computer Engineering (2016)<br/>
-                    Ph.D. Computer Engineering, University of New Mexico, 2008<br/>
-                    <br/>
-                    <strong>Liu, Xuan</strong><br/>
-                    Assistant Professor of Electrical and Computer Engineering (2014)<br/>
-                    Ph.D. Electrical and Computer Engineering, Johns Hopkins University, 2011<br/>
-                    M.S. Physics, Tsinghua University, 2007<br/>
-                    B.A. Electronic Science and Technology, Tsinghua University, 2005<br/>
-                    <br/>
-                    <strong>Loh, Ji Meng </strong><br/>
-                    Associate Professor of Mathematical Sciences (2012)<br/>
-                    Postgraduate Diploma, National Institute of Education, Singapore, 1994<br/>
-                    Ph.D., University of Chicago, 2001<br/>
-                    B.Sc., Victoria University of Wellington, New Zealand, 1991<br/>
-                    <br/>
-                    <strong>Longo, Bernadette C. </strong><br/>
-                    Associate Professor of Humanities (2012)<br/>
-                    Ph.D., Rensselaer Polytechnic Institute, 1996<br/>
-                    M.A., California State University-Stanislaus, 1992<br/>
-                    B.A., California State University-Stanislaus, 1979<br/>
-                    <br/>
-                    <strong>Lu, Lu</strong><br/>
-                    Assistant Professor of Mechanical and Industrial Engineering<br/>
-                    Ph.D. Mechanical Engineering, Purdue University, 2013<br/>
-                    M.S. Mechanical Engineering, Purdue University, 2010<br/>
-                    B.E. Mechatronic Engineering, Zhejiang University, 2008<br/>
-                    <br/>
-                    <strong>Luke, Jonathan H. </strong><br/>
-                    Professor of Mathematical Sciences (1989)<br/>
-                    Ph.D., New York University, 1986<br/>
-                    M.S., New York University, 1984<br/>
-                    B.A., Rice University, 1982<br/>
-                    <br/></p>
-                <p><strong>McHugh, James </strong><br/>
-                    Professor of Computer Science (1977)<br/>
-                    Ph.D. Applied Mathematics, New York University, 1970<br/>
-                    B.A., Fordham University, 1965<br/>
-                    <br/>
-                    <strong>McRae, Calista A.</strong><br/>
-                    Assistant Professor of Humanities (2016)<br/>
-                    Ph.D. English, Harvard University, 2016<br/>
-                    B.A. English, Amherst College, 2009<br/>
-                    <br/>
-                    <strong>Meegoda, Jay N </strong><br/>
-                    Professor of Civil and Environmental Engineering (1985)<br/>
-                    Ph.D., University of California, 1985<br/>
-                    M.S., University of California, 1983<br/>
-                    B.S., University of Sri Lanka, 1980<br/>
-                    <br/>
-                    <strong>Mehta, Rajiv </strong><br/>
-                    Professor of Management (1999)<br/>
-                    Ph.D. Marketing, Drexel University, 1994<br/>
-                    MBA Marketing and Finance, University of Scranton, 1985<br/>
-                    B. Com. (HONS) Accounting, St. Xavier's College, 1979<br/>
-                    <br/>
-                    <strong>Michalopoulou, Zoi-Heleni </strong><br/>
-                    Professor of Mathematical Sciences (1994)<br/>
-                    Ph.D., Duke University, 1993<br/>
-                    M.S., Duke University, 1990<br/>
-                    Diploma, National Technical University of Athens, 1988<br/>
-                    <br/>
-                    <strong>Mili, Ali </strong><br/>
-                    Professor of Computer Science (2001)<br/>
-                    Ph.D. Computer Engineering, Universite Joseph Fourier de Grenoble, 1985<br/>
-                    Ph.D. Computer Science, University of Illinois, 1981<br/>
-                    Ph.D. Computer Engineering, Universite Joseph Fourier de Grenoble, 1978<br/>
-                    <br/>
-                    <strong>Milojevic, Petronije </strong><br/>
-                    Professor of Mathematical Sciences (1984)<br/>
-                    Ph.D. Mathematics, Rutgers University-New Brunswick, 1975</p>
-                <p><strong>Young, Joshua</strong><br/>
-                    Assistant Professor of Chemical &amp; Materials Engineering (2019)<br/>
-                    B.S. Chemistry, Case Western Reserve University, 2011<br/>
-                    Ph.D. Materials Science and Engineering, Drexel University, 2016<br/>
-                    <br/>
-                    <strong>Young, Yuan-Nan </strong><br/>
-                    Professor of Mathematical Sciences (2004)<br/>
-                    Ph.D., University of Chicago, 2000<br/>
-                    M.S. Astronomy and Astrophysics, University of Chicago, 1996<br/>
-                    B.A. Physics, National Taiwan University, 1993<br/>
-                    <br/>
-                    <strong>Yu, Dantong</strong><br/>
-                    Associate Professor of Management (2016)<br/>
-                    Ph.D. Computer Science, SUNY College at Buffalo, 2001<br/>
-                    M.S. Computer Science, SUNY College at Buffalo, 1998<br/>
-                    B.S. Computer Science, Beijing University, 1995<br/>
-                    <br/>
-                    <strong>Zarzycki, Andrzej </strong><br/>
-                    Associate Professor of Architecture and Design (2008)<br/>
-                    Ph.D., University of Texas-Austin, 2007<br/>
-                    M. Arch., Massachusetts Institute of Technology, 1994<br/>
-                    M. Arch., Politechnika Gdanska (Gdansk University of Technology), 1992<br/>
-                    <br/>
-                    <strong>Zdepski, Michael S. </strong><br/>
-                    Associate Professor of Architecture and Design (1974)<br/>
-                    M. Arch. II (Post Professional Degree), University of Pennsylvania, 1970<br/>
-                    B. Arch., Syracuse University, 1969<br/>
-                    <br/>
-                    <strong>Zhang, Wen </strong><br/>
-                    Associate Professor of Civil and Environmental Engineering (2012)<br/>
-                    Ph.D. Environmental Engineering, Georgia Institute of Technology-Main Campus, 2011<br/>
-                    M.S. Environmental Engineering, Tongji University, 2007<br/>
-                    B.S. Environmental Engineering, Tsinghua University, 2004<br/>
-                    <br/>
-                    <strong>Zhang, Yuanwei</strong><br/>
-                    Assistant Professor of Chemistry and Environmental Science (2016)<br/>
-                    Ph.D. Philosophy, University of Central Florida, 2013<br/>
-                    M.S. Chemistry, State Key Laboratory of Elemento, 2008<br/>
-                    B.S. Chemistry, Nankai University, 2005<br/>
-                    <br/>
-                    <strong>Zhang, Haisu</strong><br/>
-                    Assistant Professor of Management (2015)<br/>
-                    Ph.D. Business Administration, University of Illinois at Chicago, 2012<br/>
-                    M.B.A. Management, Purdue University-Calumet Campus, 2006<br/>
-                    B.S. Business Management, Beijing Technology and Business University, 2004<br/>
-                    <br/>
-                    <strong>Zhou, Mengchu </strong><br/>
-                    Distinguished Professor of Electrical and Computer Engineering (1990)<br/>
-                    Ph.D., Rensselaer Polytechnic Institute, 1990<br/>
-                    M.S., Beijing Institute of Technology, 1986<br/>
-                    B.S., East China Institute of Technology, 1983<br/>
-                    <br/>
-                    <strong>Zhou, Tao </strong><br/>
-                    Associate Professor of Physics (2004)<br/>
-                    Ph.D., Max-Planck Institute for Solid State Research, 1998<br/>
-                    B.S., Nanjing University, 1989</p>
+            <p><strong>Ahmadpoor, Fatemeh</strong><br/>
+                Assistant Professor of Mechanical and Industrial Engineering (2019)<br/>
+                Ph.D. Mechanical Engineering, University of Houston, 2016<br/>
+                M.S. Structural Engineering, Sharif University of Technology, 2012<br/>
+                B.S. Civil Engineering, Sharif University of Technology, 2009<br/>
+                <br/>
+                <strong>Ahn, Keun Hyuk </strong><br/>
+                Associate Professor of Physics (2007)<br/>
+                Ph.D., Johns Hopkins University, 2000<br/>
+                M.S., Seoul National University, South Korea, 1994<br/>
+                B.S., Seoul National University, South Korea, 1992<br/>
+                <br/>
+                <strong>Akansu, Ali N. </strong><br/>
+                Professor of Electrical and Computer Engineering (1987)<br/>
+                Ph.D. Electrical Engineering, Polytechnic Institute of New York University, 1987<br/>
+                M.S. Electrical Engineering, Polytechnic Institute of New York University, 1983<br/>
+                B.S. Electronics and Communications, Technical University of Istanbul, 1980<br/>
+                <br/>
+                <strong>Alvarez, Tara L. </strong><br/>
+                Professor of Biomedical Engineering (2001)<br/>
+                Ph.D. Biomedical Engineering, Rutgers University-New Brunswick, 1998<br/>
+                M.S. Biomedical Engineering, Rutgers University-New Brunswick, 1997<br/>
+                B.S. Electrical Engineering, Rutgers University-New Brunswick, 1994<br/>
+                <br/>
+            <p><strong>Borgaonkar, Ashish</strong><br/>
+                Assistant Professor of Engineering Technology (2013)<br/>
+                <br/>
+                <strong>Bose, Amitabha K. </strong><br/>
+                Professor of Mathematical Sciences (1996)<br/>
+                Ph.D., Brown University, 1993<br/>
+                M.S., Brown University, 1991<br/>
+                B.S., Columbia University in the City of New York, 1989<br/>
+                <br/>
+                <strong>Boubendir, Yassine </strong><br/>
+                Associate Professor of Mathematical Sciences (2007)<br/>
+                Ph.D., Universite de Toulouse, France, 2002<br/>
+                M.S., University of Paul, France, 1996<br/>
+                B.S., University of Constantine, Algeria, 1993<br/>
+                <br/>
+                <strong>Boufadel, Michel </strong><br/>
+                Professor of Civil and Environmental Engineering (2012)<br/>
+                Ph.D., University of Cincinnati, 1998<br/>
+                M.S., University of Cincinnati, 1992<br/>
+                B.S., Jesuit University at Beirut, Lebanon, 1988<br/>
+                <br/>
+                <strong>Bucher, Dirk M. </strong><br/>
+                Associate Professor of Federated Biology (2013)<br/>
+                Ph.D.<br/>
+                <br/>
+                <strong>Bukiet, Bruce G. </strong><br/>
+                Professor of Mathematical Sciences (1989)<br/>
+                Ph.D., New York University, 1986<br/>
+                M.S. Mathematics, New York University, 1983<br/>
+                B.S. Applied Mathematics - Biology, Brown University, 1980<br/>
+                <br/>
+                <strong>Bunker, Daniel E. </strong><br/>
+                Assistant Professor of Federated Biology (2008)<br/>
+                Ph.D. Biology, University of Pittsburgh-Pittsburgh Campus, 2004<br/>
+                B.S. Ecology and Evolution, The Evergreen State College, 1994</p>
 
 
-                <p><strong>Zhou, Xianlian</strong><br/>
-                    Associate Professor of Bio-Medical Engineering (2018)<br/>
-                    <br/>
-                    <strong>Zhu, Chao </strong><br/>
-                    Professor of Mechanical and Industrial Engineering (1998)<br/>
-                    Ph.D., University of Illinois at Urbana-Champaign, 1991<br/>
-                    M.S., University of Illinois at Urbana-Champaign, 1989<br/>
-                    B.S., Tsinghua University, 1984<br/>
-                    <br/>
-                    <strong>Ziavras, Sotirios G. </strong><br/>
-                    Professor of Electrical and Computer Engineering (1990)<br/>
-                    D.Sc., George Washington University, 1990<br/>
-                    M.S., Ohio University, 1985<br/>
-                    Diploma, National Technical University of Athens, 1984</p>
-
-            </div><!--end #textcontainer -->
+            <p><strong>Buntain, Cody</strong><br/>
+                Assistant Professor of Computer Science and Informatics (2019)<br/>
+                Ph.D. Computer Science, University of Maryland-College Park, 2016<br/>
+                M.S. Computer Science, University of Alabama in Huntsville, 2010<br/>
+                B.S. Computer Science and Mathematics, University of Alabama in Huntsville, 2007<br/>
+                <br/>
+                <strong>Buyukahtakin-Toy, Ismet Esra</strong><br/>
+                Associate Professor of Mechanical and Industrial Engineering (2017)</p>
 
 
-        </div><!-- end #content -->
-    </div> <!-- end right-col -->
+            <p><strong>Cai, Wenbo </strong><br/>
+                Assistant Professor of Mechanical and Industrial Engineering (2012)<br/>
+                Ph.D. Industrial Engineering and Operations Research, University of California-Berkeley, 2012<br/>
+                M.S. Industrial Engineering and Operations Research, University of California-Berkeley, 2007<br/>
+                B.S. Electrical and Computer Engineering; Operations Research and Industrial Engineering, Cornell
+                University, 2005<br/>
+                <br/>
+                <strong>Calvin, James M. </strong><br/>
+                Professor of Computer Science (1996)<br/>
+                Ph.D., Stanford University, 1990<br/>
+                M.S., University of California-Berkeley, 1979<br/>
+                B.A., University of California-Berkeley, 1978<br/>
+                <br/>
+                <strong>Cao, Wenda </strong><br/>
+                Associate Professor of Physics (2002)<br/>
+                Ph.D. Astrophysics and Astronomical Instrument, National Astronomical Observatories, Chinese Academy
+                of Sciences, 2001<br/>
+                M.S., National Astronomical Observatories, Chinese Academy of Sciences, 1992<br/>
+                B.S., University of National Defense Science and Technology (China), 1989<br/>
+                <br/>
+                <strong>Carpinelli, John D. </strong><br/>
+                Professor of Electrical and Computer Engineering (1986)<br/>
+                Ph.D., Rensselaer Polytechnic Institute, 1987<br/>
+                M.E., Rensselaer Polytechnic Institute, 1984<br/>
+                B.E., Stevens Institute of Technology, 1983<br/>
+                <br/>
+                <strong>Caudill, Reggie J </strong><br/>
+                Professor of Mechanical and Industrial Engineering (1990)<br/>
+                Ph.D. Dynamics and Controls/Mechanical Engineering, University of Minnesota-Twin Cities, 1976<br/>
+                M.S. Engineering Mechanics, The University of Alabama, 1973<br/>
+                B.S. Mechanical Engineering, The University of Alabama, 1971<br/>
+                <br/>
+                <strong>Celik, Zeynep </strong><br/>
+                Distinguished Professor of Architecture and Design (1990)<br/>
+                Ph.D. Architectural History, University of California-Berkeley, 1984<br/>
+                M. Arch., Rice University, 1978<br/>
+                B. Arch., Istanbul Technical University, 1975</p>
+            <p><strong>Daher, Salam</strong><br/>
+                Assistant Professor of Informatics (2019)<br/>
+                Ph.D. Modeling and Simulation, University of Central Florida, 2018<br/>
+                M.S. Modeling and Simulation, University of Central Florida, 2015<br/>
+                M.S. Digital Arts and Science, University of Florida, 2006<br/>
+                B.S. Computer Science, Lebanese American University, 2004<br/>
+                <br/>
+                <strong>Daniel, Janice R. </strong><br/>
+                Associate Professor of Civil and Environmental Engineering (1999)<br/>
+                Ph.D. Civil and Environmental Engineering, Texas A&amp;M Health Science Center, 1995<br/>
+                M.S. Transportation Planning and Engineering, Polytechnic Institute of New York University,
+                1989<br/>
+                B.S. Civil Engineering, Princeton University, 1985<br/>
+                <br/>
+                <strong>Das, Sanchoy K. </strong><br/>
+                Professor of Mechanical and Industrial Engineering (1989)<br/>
+                Ph.D., Virginia Polytechnic Institute and State University, 1989<br/>
+                M.S., Virginia Polytechnic Institute and State University, 1985<br/>
+                B.S., University of Science and Technology (Ghana), 1982<br/>
+                <br/>
+                <strong>Dasgupta, Aritra</strong><br/>
+                Assistant Professor of Informatics (2018)<br/>
+                <br/>
+                <strong>Datta, Dibakar</strong><br/>
+                Assistant Professor of Mechanical and Industrial Engineering (2016)<br/>
+                Ph.D. Philosophy, Brown University, 2015<br/>
+                M.S. Computational Mechanics, Universitat Politecnica de Catalunya, 2010<br/>
+                M.S. Structural Engineering, Indian Institute of Science, 2008<br/>
+                B.S. Civil Engineering, Indian Institute of Engineering Science, 2006<br/>
+                <br/>
+                <strong>Dave, Rajesh N. </strong><br/>
+                Distinguished Professor of Chemical and Materials Engineering (1985)<br/>
+                Ph.D. Mechanical Engineering, Utah State University, 1983<br/>
+                M.S. Mechanical Engineering, Utah State University, 1981<br/>
+                B.S. Mechanical Engineering, Indian Institute of Technology, 1978<br/>
+                <br/>
+                <strong>Decker, Martina </strong><br/>
+                Assistant Professor of Architecture and Design (2012)<br/>
+                Diploma Architektur, FHM Munich University of Applied Sciences, 2004<br/>
+                Diploma, FHM Munich University of Applied Sciences, 2000<br/>
+                <br/>
+                <strong>Deek, Fadi P. </strong><br/>
+                Distinguished Professor of Information System (1986)<br/>
+                Ph.D. Computer and Information Science, New Jersey Institute of Technology, 1997<br/>
+                M.S. Computer Science, New Jersey Institute of Technology, 1986<br/>
+                B.S. Computer Science, New Jersey Institute of Technology, 1985<br/>
+                <br/>
+                <strong>Dent, Rosanna J.</strong><br/>
+                Assistant Professor of Federated History (2018)<br/>
+                <br/></p>
+            <p><strong>Liu, Qing</strong><br/>
+                Assistant Professor of Electrical and Computer Engineering (2016)<br/>
+                Ph.D. Computer Engineering, University of New Mexico, 2008<br/>
+                <br/>
+                <strong>Liu, Xuan</strong><br/>
+                Assistant Professor of Electrical and Computer Engineering (2014)<br/>
+                Ph.D. Electrical and Computer Engineering, Johns Hopkins University, 2011<br/>
+                M.S. Physics, Tsinghua University, 2007<br/>
+                B.A. Electronic Science and Technology, Tsinghua University, 2005<br/>
+                <br/>
+                <strong>Loh, Ji Meng </strong><br/>
+                Associate Professor of Mathematical Sciences (2012)<br/>
+                Postgraduate Diploma, National Institute of Education, Singapore, 1994<br/>
+                Ph.D., University of Chicago, 2001<br/>
+                B.Sc., Victoria University of Wellington, New Zealand, 1991<br/>
+                <br/>
+                <strong>Longo, Bernadette C. </strong><br/>
+                Associate Professor of Humanities (2012)<br/>
+                Ph.D., Rensselaer Polytechnic Institute, 1996<br/>
+                M.A., California State University-Stanislaus, 1992<br/>
+                B.A., California State University-Stanislaus, 1979<br/>
+                <br/>
+                <strong>Lu, Lu</strong><br/>
+                Assistant Professor of Mechanical and Industrial Engineering<br/>
+                Ph.D. Mechanical Engineering, Purdue University, 2013<br/>
+                M.S. Mechanical Engineering, Purdue University, 2010<br/>
+                B.E. Mechatronic Engineering, Zhejiang University, 2008<br/>
+                <br/>
+                <strong>Luke, Jonathan H. </strong><br/>
+                Professor of Mathematical Sciences (1989)<br/>
+                Ph.D., New York University, 1986<br/>
+                M.S., New York University, 1984<br/>
+                B.A., Rice University, 1982<br/>
+                <br/></p>
+            <p><strong>McHugh, James </strong><br/>
+                Professor of Computer Science (1977)<br/>
+                Ph.D. Applied Mathematics, New York University, 1970<br/>
+                B.A., Fordham University, 1965<br/>
+                <br/>
+                <strong>McRae, Calista A.</strong><br/>
+                Assistant Professor of Humanities (2016)<br/>
+                Ph.D. English, Harvard University, 2016<br/>
+                B.A. English, Amherst College, 2009<br/>
+                <br/>
+                <strong>Meegoda, Jay N </strong><br/>
+                Professor of Civil and Environmental Engineering (1985)<br/>
+                Ph.D., University of California, 1985<br/>
+                M.S., University of California, 1983<br/>
+                B.S., University of Sri Lanka, 1980<br/>
+                <br/>
+                <strong>Mehta, Rajiv </strong><br/>
+                Professor of Management (1999)<br/>
+                Ph.D. Marketing, Drexel University, 1994<br/>
+                MBA Marketing and Finance, University of Scranton, 1985<br/>
+                B. Com. (HONS) Accounting, St. Xavier's College, 1979<br/>
+                <br/>
+                <strong>Michalopoulou, Zoi-Heleni </strong><br/>
+                Professor of Mathematical Sciences (1994)<br/>
+                Ph.D., Duke University, 1993<br/>
+                M.S., Duke University, 1990<br/>
+                Diploma, National Technical University of Athens, 1988<br/>
+                <br/>
+                <strong>Mili, Ali </strong><br/>
+                Professor of Computer Science (2001)<br/>
+                Ph.D. Computer Engineering, Universite Joseph Fourier de Grenoble, 1985<br/>
+                Ph.D. Computer Science, University of Illinois, 1981<br/>
+                Ph.D. Computer Engineering, Universite Joseph Fourier de Grenoble, 1978<br/>
+                <br/>
+                <strong>Milojevic, Petronije </strong><br/>
+                Professor of Mathematical Sciences (1984)<br/>
+                Ph.D. Mathematics, Rutgers University-New Brunswick, 1975</p>
+            <p><strong>Young, Joshua</strong><br/>
+                Assistant Professor of Chemical &amp; Materials Engineering (2019)<br/>
+                B.S. Chemistry, Case Western Reserve University, 2011<br/>
+                Ph.D. Materials Science and Engineering, Drexel University, 2016<br/>
+                <br/>
+                <strong>Young, Yuan-Nan </strong><br/>
+                Professor of Mathematical Sciences (2004)<br/>
+                Ph.D., University of Chicago, 2000<br/>
+                M.S. Astronomy and Astrophysics, University of Chicago, 1996<br/>
+                B.A. Physics, National Taiwan University, 1993<br/>
+                <br/>
+                <strong>Yu, Dantong</strong><br/>
+                Associate Professor of Management (2016)<br/>
+                Ph.D. Computer Science, SUNY College at Buffalo, 2001<br/>
+                M.S. Computer Science, SUNY College at Buffalo, 1998<br/>
+                B.S. Computer Science, Beijing University, 1995<br/>
+                <br/>
+                <strong>Zarzycki, Andrzej </strong><br/>
+                Associate Professor of Architecture and Design (2008)<br/>
+                Ph.D., University of Texas-Austin, 2007<br/>
+                M. Arch., Massachusetts Institute of Technology, 1994<br/>
+                M. Arch., Politechnika Gdanska (Gdansk University of Technology), 1992<br/>
+                <br/>
+                <strong>Zdepski, Michael S. </strong><br/>
+                Associate Professor of Architecture and Design (1974)<br/>
+                M. Arch. II (Post Professional Degree), University of Pennsylvania, 1970<br/>
+                B. Arch., Syracuse University, 1969<br/>
+                <br/>
+                <strong>Zhang, Wen </strong><br/>
+                Associate Professor of Civil and Environmental Engineering (2012)<br/>
+                Ph.D. Environmental Engineering, Georgia Institute of Technology-Main Campus, 2011<br/>
+                M.S. Environmental Engineering, Tongji University, 2007<br/>
+                B.S. Environmental Engineering, Tsinghua University, 2004<br/>
+                <br/>
+                <strong>Zhang, Yuanwei</strong><br/>
+                Assistant Professor of Chemistry and Environmental Science (2016)<br/>
+                Ph.D. Philosophy, University of Central Florida, 2013<br/>
+                M.S. Chemistry, State Key Laboratory of Elemento, 2008<br/>
+                B.S. Chemistry, Nankai University, 2005<br/>
+                <br/>
+                <strong>Zhang, Haisu</strong><br/>
+                Assistant Professor of Management (2015)<br/>
+                Ph.D. Business Administration, University of Illinois at Chicago, 2012<br/>
+                M.B.A. Management, Purdue University-Calumet Campus, 2006<br/>
+                B.S. Business Management, Beijing Technology and Business University, 2004<br/>
+                <br/>
+                <strong>Zhou, Mengchu </strong><br/>
+                Distinguished Professor of Electrical and Computer Engineering (1990)<br/>
+                Ph.D., Rensselaer Polytechnic Institute, 1990<br/>
+                M.S., Beijing Institute of Technology, 1986<br/>
+                B.S., East China Institute of Technology, 1983<br/>
+                <br/>
+                <strong>Zhou, Tao </strong><br/>
+                Associate Professor of Physics (2004)<br/>
+                Ph.D., Max-Planck Institute for Solid State Research, 1998<br/>
+                B.S., Nanjing University, 1989</p>
+
+
+            <p><strong>Zhou, Xianlian</strong><br/>
+                Associate Professor of Bio-Medical Engineering (2018)<br/>
+                <br/>
+                <strong>Zhu, Chao </strong><br/>
+                Professor of Mechanical and Industrial Engineering (1998)<br/>
+                Ph.D., University of Illinois at Urbana-Champaign, 1991<br/>
+                M.S., University of Illinois at Urbana-Champaign, 1989<br/>
+                B.S., Tsinghua University, 1984<br/>
+                <br/>
+                <strong>Ziavras, Sotirios G. </strong><br/>
+                Professor of Electrical and Computer Engineering (1990)<br/>
+                D.Sc., George Washington University, 1990<br/>
+                M.S., Ohio University, 1985<br/>
+                Diploma, National Technical University of Athens, 1984</p>
+
+
+        </div> <!-- end right-col -->
     </div><!-- end #content-wrapper -->
 </header>
 </body>

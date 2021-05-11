@@ -29,73 +29,82 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link" href="/about/">About</span></a>
+                            <a class="nav-link" href="/about/">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/academics/">Academics</a>
+                        <li class="nav-item active ">
+                            <a class="nav-link active" href="/academics/">Academics</a>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/Faculty/">Faculty</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/records/">Records
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/gallery/">Photos</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="/chart/">Chart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery/">Photos</a>
                         </li>
 
                     </ul>
 
                 </div>
 
-<div class = "container justify-content-end">
+                <div class="container justify-content-end">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a target="_blank" href="/calendar/">
-                    <img border="10" src="https://www.google.com/calendar/images/ext/gc_button6_en.gif"></a>
-         </div>   </nav>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a target="_blank" href="/calendar/">
+                        <img border="10" src="https://www.google.com/calendar/images/ext/gc_button6_en.gif"></a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
 <header class="bg-light">
     <div class="container-xl">
         <div class="jumbotron">
             <h5 class="display-5 "><strong>Admissions and Academics</strong></h5>
             <p class="lead">
-                Since 1881, NJIT has been committed to academic excellence. As one of the nation’s leading polytechnic
-                universities, NJIT provides students with the edge they need to be leaders in today’s competitive
+                Since 1881, NJIT has been committed to academic excellence. As one of the nation’s leading
+                polytechnic
+                universities, NJIT provides students with the edge they need to be leaders in today’s
+                competitive
                 high-tech marketplace.
             </p>
-            <h3 class="title">At NJIT, you will be part of a top-tier public research university and receive a
+            <h3 class="title">At NJIT, you will be part of a top-tier public research university and receive
+                a
                 world-class education.</h3>
             <h2 class="display-10">Undergraduate</h2>
-            <p class="lead">With superior academic programs, expert faculty, exceptional research opportunities
-                and hundreds of internship and cooperative education opportunities, NJIT prepares you for your
+            <p class="lead">With superior academic programs, expert faculty, exceptional research
+                opportunities
+                and hundreds of internship and cooperative education opportunities, NJIT prepares you for
+                your
                 future.</p>
             <h5 class="display-10">First-Year Students</h5>
-            <p class="lead">If you have less than 15 college credits and have never attended another college or
+            <p class="lead">If you have less than 15 college credits and have never attended another college
+                or
                 university.</p>
             <h5 class="display-10">Transfer Students</h5>
             <p class="lead">If you have at least 15 college credits from another college or university.</p>
             <h5 class="display-10">Previously-Admitted Students</h5>
-            <p class="lead">If you have attended NJIT for at least one semester, but then took at least one semester
+            <p class="lead">If you have attended NJIT for at least one semester, but then took at least one
+                semester
                 off.</p>
             <h5 class="display-10">Visiting Students</h5>
-            <p class="lead">NJIT welcomes visiting students who currently are or used to be enrolled at other
+            <p class="lead">NJIT welcomes visiting students who currently are or used to be enrolled at
+                other
                 colleges/universities.</p>
             <h2 class="display-10">Graduate</h2>
-            <p class="lead">Pursue a master's or doctoral degree to advance your career or remain competitive by earning
+            <p class="lead">Pursue a master's or doctoral degree to advance your career or remain
+                competitive by earning
                 a certificate in your field.</p>
-        </div>
-    </div>
-</header>
-
-<header class="bg-light">
-    <div class="container">
-        <div class="row mb-3">
-            <p>
 
 
             <h3 class="title">Meet Some of our Students</h3>
@@ -104,10 +113,13 @@
                 <div class="card border-secondary mb-3" style="max-width: 18rem;">
                     <div class="card-body">
                         <img alt="Card image cap" class="col-md-7" class="card-img-top"
-                             src="../../Images/Stu1.PNG" style="width:100%; height: 90%"></img>
-                        <h5 class="card-title text-center "><strong>Emine S. Karaman, Class of 2019</strong></h5>
-                        <p class="card-text text-center">“I have enjoyed my time in the Materials Science and
-                            Engineering Program, particularly the small classes and individual attention that help in
+                             src="{{ url_for('static', filename = 'Stu1.PNG') }}"
+                             style="width:100%; height: 90%"></img>
+                        <h5 class="card-title text-center "><strong>Alexia Drum, Class of 2019</strong></h5>
+                        <p class="card-text text-center">“I have enjoyed my time in the Materials Science
+                            and
+                            Engineering Program, particularly the small classes and individual attention
+                            that help in
                             hands-on learning.”</p>
                         <div class="text-center">
 
@@ -120,10 +132,12 @@
                 <div class="card border-secondary mb-3" style="max-width: 18rem;">
                     <div class="card-body">
                         <img alt="Card image cap" class="col-md-7" class="card-img-top"
-                             src="../../Images/Stu2.PNG" style="width:100%; height: 90%"></img>
+                             src="{{ url_for('static', filename = 'Stu2.PNG') }}"
+                             style="width:100%; height: 90%"></img>
                         <h5 class="card-title text-center "><strong>Aaron Short, Class of 2020</strong></h5>
-                        <p class="card-text text-center">“I am thankful to NJIT for my scholarship and for the doors
-                            that the APPH program has opened for me. ” 1</p>
+                        <p class="card-text text-center">“I am thankful to NJIT for my scholarship and for
+                            the doors
+                            that the APPH program has opened for me.” </p>
                         <div class="text-center">
 
                         </div>
@@ -134,12 +148,16 @@
             <div class="col-md">
                 <div class="card border-secondary mb-3" style="max-width: 18rem;">
                     <div class="card-body">
-                        <img alt="Card image cap" class="col-md-7" class="card-img-top" src="../../Images/Stu3.PNG"
+                        <img alt="Card image cap" class="col-md-7" class="card-img-top"
+                             src="{{ url_for('static', filename = 'Stu3.PNG') }}"
                              style="width:100%; height: 90%"></img>
-                        <h5 class="card-title text-center "><strong>Emine S. Karaman, Class of 2019</strong></h5>
-                        <p class="card-text text-center">“I have enjoyed my time in the Materials Science and
-                            Engineering Program, particularly the small classes and individual attention that help in
-                            hands-on learning.”</p>
+                        <h5 class="card-title text-center "><strong>Emine Carol, Class of 2019</strong></h5>
+                        <p class="card-text text-center">“I have enjoyed my time in the Materials Science
+                            and
+                            Engineering Program, particularly the small classes and individual attention
+                            that help in
+                            hands-on learning. I am grateful for my journey at NJIT. Taking it ahead
+                            now.”</p>
                         <div class="text-center">
                         </div>
                     </div>
@@ -149,3 +167,5 @@
     </div>
 </header>
 
+</body>
+</html>

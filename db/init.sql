@@ -3,13 +3,13 @@ use records;
 
 
 CREATE TABLE IF NOT EXISTS tblrecords (
-#     id INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     Name VARCHAR(10) CHARACTER SET utf8,
     Sex VARCHAR(10) CHARACTER SET utf8,
     Age INT,
     Height_in INT,
-    Weight_lbs INT
-#     PRIMARY KEY (id)
+    Weight_lbs INT,
+  PRIMARY KEY (id)
 );
 
 INSERT INTO tblrecords (Name, Sex, Age, Height_in, Weight_lbs) VALUES
