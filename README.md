@@ -1,6 +1,6 @@
 
 # FinalProject-WebApplication
-## This project has been created as a per of the final web application assignment to demonstrate the working of Calendar and chart.js
+## This project has been created as a part of the final web application assignment to demonstrate the working of Calendar and chart.js
 # Project Description
 ## We as a team have created the website on college that displays information about the university
 <li>About page</li>
