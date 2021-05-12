@@ -1,8 +1,8 @@
 
 # FinalProject-WebApplication
-## This project has been created as a part of the final web application assignment to demonstrate the working of Calendar and chart.js
+## This project has been created as a part of the final web application assignment to demonstrate the working of Calendar and chart.js for data visualization.
 # Project Description
-## We as a team have created the website on college that displays information about the university
+## We as a team have created the website on college that displays following information about the university
 <li>About page</li>
 <li>Academics page</li>
 <li>Faculty page</li>
@@ -11,6 +11,10 @@
 <li>Photo Gallery</li>
 <li>Chart to represent student data</li>
 <li>Calendar to represent college events</li>
+
+# Team
+## <li> Garima Negi </li> ##
+## <li> Manjushree Madhava Rao Ramachandrahosur </li> ##
 
 # Following features have been developed as a part of the project
 ## <li> Feature1- Chart created using API end points using chart.js </li> 
