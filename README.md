@@ -1,5 +1,5 @@
-[Project Features Guide.docx](https://github.com/gn32/FinalProject-WebApplication/files/6462909/Project.Features.Guide.docx)
-[Project Features Guide.docx](https://github.com/gn32/FinalProject-WebApplication/files/6462914/Project.Features.Guide.docx)
+
+
 # FinalProject-WebApplication
 ## This project has been created as a per of the final web application assignment to demonstrate the working of Calendar and chart.js
 # Project Description
