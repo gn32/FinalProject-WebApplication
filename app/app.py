@@ -83,8 +83,6 @@ def chart():
         labels.append(i['Name'])
         values.append(i['Age'])
 
-    print(labels)
-    print(values)
     return render_template('chart.html', values=values, labels=labels, legend=legend)
 
 @app.route('/view/<int:record_id>', methods=['GET'])
