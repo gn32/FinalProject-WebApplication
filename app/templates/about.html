@@ -69,18 +69,15 @@
 
 <header class="bg-light">
     <div class="container-xl">
-        <div class="col-md text-center mt-4 mb-4 ">
-           <img alt="Responsive image" class="img-circle" src="{{url_for('static', filename = 'Univ.jpeg')}}"
+        <div class="jumbotron">
+            <div class="col-md text-center mt-4 mb-4 ">
+
+                <h5 class="display-6 "><strong>About NJIT</strong></h5>
+                <img alt="Responsive image" class="img-circle" src="{{ url_for('static', filename = 'Univ.jpeg') }}"
                      style="width:90%; height: 30%">
 
-        </div>
-    </div>
-</header>
+            </div>
 
-<header class="bg-light">
-    <div class="container-xl">
-        <div class="jumbotron">
-            <h5 class="display-6 "><strong>About NJIT</strong></h5>
             <p class="lead">
                 Welcome to New Jersey Institute of Technology. As the state’s public polytechnic university, we continue
                 to invest in the renewal of our existing facilities in addition to adding new spaces, with the goal of
@@ -116,7 +113,7 @@
             </Li>
             </p>
             <div class="col-md text-center mt-4 mb-4 ">
-                <img src="{{url_for('static', filename = 'R&D.jpeg')}}"
+                <img src="{{ url_for('static', filename = 'R&D.jpeg') }}"
                      style="width:90%; height: 30%">
 
             </div>
